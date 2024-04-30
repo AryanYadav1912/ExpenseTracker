@@ -1,0 +1,63 @@
+/* Header */
+.header {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Header Menu Links */
+.header-menu a {
+  text-decoration: none;
+  color: #333; /* Dark text color */
+}
+
+/* Logo */
+.logo {
+  color: #007bff; /* Blue color */
+  font-size: 30px; /* Standard font size */
+  font-weight: 700; /* Bold weight for prominence */
+  cursor: pointer;
+}
+
+/* Logo Link */
+.logo-a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Active Tab */
+.active-tab {
+  border-bottom: 2px solid #007bff; /* Blue underline for active tab */
+}
+
+/* Menu Option */
+.menu-option {
+  font-size: 18px; /* Standard font size */
+  margin-left: 16px; /* Spacing for menu items */
+  padding: 8px; /* Padding for menu items */
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 1024px) {
+  .logo {
+    font-size: 26px; /* Reduced font size for smaller screens */
+  }
+  .menu-option {
+    font-size: 16px; /* Reduced font size for smaller screens */
+    margin-left: 12px; /* Reduced margin for smaller screens */
+  }
+}
+@media only screen and (max-width: 512px) {
+  .logo {
+    font-size: 22px; /* Further reduced font size for very small screens */
+  }
+  .menu-option {
+    font-size: 14px; /* Further reduced font size for very small screens */
+    margin-left: 8px; /* Minimal margin for very small screens */
+  }
+}
